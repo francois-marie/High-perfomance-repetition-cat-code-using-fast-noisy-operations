@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# python's bytecode compiled files
+__pycache__/
+*.pyc
+
+# IDE settings directory
+.idea/
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Poetry dependency tool
+poetry.lock
+
+data/**
+!/data/**/
+!/data/**/.gitkeep
+
+notebooks/**/*.png
+notebooks/**/*.npy
+notebooks/**/*.pdf
+notebooks/**/*.json
+
+experiments/logs/
+experiments/**/*.png
+experiments/**/*.npy
+logs/
+**/nohup.out
+
+.virtual_documents/**
